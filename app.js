@@ -11,14 +11,19 @@ const colors = [
     "#fff200",
     "#32ff7e",
     "#7efff5",
-    ]
+    ];
 
+ctx.lineWidth=2;
 
 function onClick(event) {
     ctx.beginPath();
-    ctx.moveTo(0,0)
+    ctx.moveTo(event.offsetX,event.offsetY)
     ctx.strokeStyle = colors[Math.floor(Math.random()*colors.length)];
+}
+
+function onMouseMove(event) {
     ctx.lineTo(event.offsetX,event.offsetY);
     ctx.stroke();
 }
-canvas.addEventListener("mousemove", onClick);
+canvas.addEventListener("click", onClick);
+canvas.addEventListener("mousemove", onMouseMove);
