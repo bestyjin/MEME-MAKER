@@ -1,17 +1,72 @@
-canvas {
-    width: 800px;
-    height: 800px;
-    border: 1px solid black;
-}
+@import "reset.css";
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gainsboro;
 }
 
+button,label{
+    all: unset;
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+canvas {
+    width: 800px;
+    height: 800px;
+    border: 1px solid transparent;
+    background-color: white;
+    margin: 50px;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input#color{
+    background-color: white;
+}
 .color-option {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 5px solid white;
     cursor: pointer;
+    transition: all .3s ease;
+}
+
+.color-option:hover {
+    transform: scale(1.2);
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+input#file{
+    display: none;
+}
+
+input#text {
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
 }
