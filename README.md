@@ -1,8 +1,7 @@
 # 나만의 그림판 만들기 (바닐라 JS)
 
 <h3>초기화면</h3>
-<img src="https://user-images.githubusercontent.com/71006256/199891139-d32b1ec3-a6c9-4fcb-99d5-33da544e0308.png" width=700 hieght=450/>
-
+<img src="https://user-images.githubusercontent.com/71006256/199896521-1b6ff83c-58c9-484c-8121-c2a5a75ab3cb.png" width=700 hieght=450/>
 <br />
 <ol>
   <li>
