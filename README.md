@@ -1,4 +1,4 @@
-# 나만의 그림판 만들기 (바닐라 JS)
+# 나만의 그림판 만들기 (바닐라 JS) <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
 
 <h3>초기화면</h3>
 <img src="https://user-images.githubusercontent.com/71006256/199896521-1b6ff83c-58c9-484c-8121-c2a5a75ab3cb.png" width=700 hieght=450/>
